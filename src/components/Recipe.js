@@ -8,7 +8,7 @@ function getModalStyle() {
     const top = 50 ;
     const left = 50;
 
-    return {  
+    return {
         top: `${top}%`,
         left: `${left}%`,
         transform: `translate(-${top}%, -${left}%)`,
