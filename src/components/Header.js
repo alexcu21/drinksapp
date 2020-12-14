@@ -3,7 +3,7 @@ import react from 'react'
 const Header = () => {
     return(
         <header className="bg-alert">
-            <h1>Search for drinks</h1>
+            <h1>Search for drinks' recipe</h1>
         </header>
     )
 }
