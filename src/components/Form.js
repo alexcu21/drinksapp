@@ -41,6 +41,7 @@ const Form = () => {
                     <input
                         type="text"
                         name="name"
+                        id="ingredientInput"
                         className="form-control"
                         placeholder="Search by ingredient"
                         onChange={getRecipeData}
@@ -50,6 +51,7 @@ const Form = () => {
                     <select
                         className="form-control"
                         name="category"
+                        id="drinklist"
                         onChange={getRecipeData}
                         >
 
@@ -67,7 +69,8 @@ const Form = () => {
                 <div className="col-md-4">
                     <input
                         type="submit"
-                        className="btn btn-block btn-primary"
+                        className="btn-myapp"
+                        id="searchBtn"
                         value="search for drinks"
                     />
                 </div>

@@ -19,3 +19,12 @@ h1 {
   text-align: center;
   font-size: 3rem;
 }
+
+.btn-myapp{
+  background-color:#4e8d7c;
+  color: #fff;
+  border-color: #4e8d7c;
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
